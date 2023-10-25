@@ -44,7 +44,7 @@ export const accountSlice = createSlice({
     state.error= action.error;
 });
 },
-})
+})  
 
 // Action creators are generated for each case reducer function
 export const { increment, decrement, incrementByAmount } = accountSlice.actions

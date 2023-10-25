@@ -3,6 +3,7 @@ import './App.css';
 import Account from './componets/Account';
 import Bonus from './componets/Bonus';
 import Reward from './componets/Reward';
+import Admin from './componets/Admin';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Account></Account>
       <Bonus></Bonus>
       <Reward></Reward>
+      <Admin></Admin>
     </div>
   );
 }

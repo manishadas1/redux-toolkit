@@ -1,19 +1,18 @@
 {
-  "posts": [
+  "accounts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "amount": 101,
+      "id": 17
     }
   ],
-  "comments": [
+  "bonus": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "amount": 2
+    },
+    {
+      "id": 2,
+      "amount": 3
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
